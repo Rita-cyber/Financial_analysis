@@ -29,7 +29,13 @@
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/f222b048-3a7b-4b11-a201-e30868143162">
 
-Azure Logic Apps
+## Azure Logic Apps
+Click on use sample payload to generate schema and paste the below json in it
+
+{"pipelineName": "",
+  "RunId":"",
+  "ErrorMessage" :""
+    }
 
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/a59e6b94-70a8-4721-adda-7443454f70b6">
 
