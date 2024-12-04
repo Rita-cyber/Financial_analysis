@@ -1,13 +1,13 @@
 # Financial_analysis
 
 
-# Solution Architecture
+## Solution Architecture
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/e44f460d-1840-4793-b97e-63d26e816075">
 
-# ERD
+## ERD
 
 
-# Data Pipeline Flow
+## Data Pipeline Flow
 
 <img width="661" alt="image" src="https://github.com/user-attachments/assets/4454ff22-50d5-44a2-ab38-d241c99b7c02">
 
@@ -17,9 +17,22 @@
 
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/62c82fb7-17b9-49be-a66e-6e51fd8fe829">
 
-Error Handling
+## Error Handling
+
+@concat(
+    activity('Ingest_azureblob').output?.Error?.Message, 
+    ' | ', 
+    activity('extract_transform').output?.Error?.Message, 
+    ' | ', 
+    activity('load_azuresql').output?.Error?.Message
+)
 
 <img width="946" alt="image" src="https://github.com/user-attachments/assets/f222b048-3a7b-4b11-a201-e30868143162">
+
+Azure Logic Apps
+
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/a59e6b94-70a8-4721-adda-7443454f70b6">
+
 
 
 
