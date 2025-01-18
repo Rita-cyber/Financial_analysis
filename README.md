@@ -35,9 +35,7 @@ Aggregated tables are generated in PostgreSQL using stored procedures and SQL sc
 ![Gold_Fintech_erd-erd](https://github.com/user-attachments/assets/be0381de-572c-4fa3-8bb5-0f192ad0af9e)
 
 
-## Data Pipeline Flow
 
-<img width="661" alt="image" src="https://github.com/user-attachments/assets/4454ff22-50d5-44a2-ab38-d241c99b7c02">
 
 
 ![image](https://github.com/user-attachments/assets/bb6821e7-1f69-45e3-8e2b-3b5bc9748eea)
