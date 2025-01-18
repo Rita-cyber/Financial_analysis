@@ -13,11 +13,13 @@ Frequency: Daily data refreshes
 
 
 ## Solution Architecture
-<img width="593" alt="image" src="https://github.com/user-attachments/assets/e44f460d-1840-4793-b97e-63d26e816075">
+
+![image](https://github.com/user-attachments/assets/97a4eb8f-85e3-4075-aa55-e2e055ca8584)
 
 # Data Pipeline Flow
 
-![Gold_Fintech_erd-Pipeline_Flow drawio](https://github.com/user-attachments/assets/2a1db09f-f8fd-4b3f-9f3d-5802bd511d41)
+![image](https://github.com/user-attachments/assets/93b2a32c-9127-48a9-be36-5491e297fa83)
+
 
 
 ## Pipeline Workflow
@@ -68,7 +70,6 @@ Click on use sample payload to generate schema and paste the below json in it
 
 
 
-![image](https://github.com/user-attachments/assets/97a4eb8f-85e3-4075-aa55-e2e055ca8584)
 
 
 
